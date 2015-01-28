@@ -1,0 +1,23 @@
+{
+	"name": "promise-generator-demo"
+	,"version": "0.0.1"
+	,"description": "a mongodb wrapper, make everything return promise."
+	,"main": "index.js"
+	,"scripts": {
+		"start": "node app.js"
+	}
+	,"dependencies": {
+		"co": "*"
+	}
+	,"devDependencies": {
+		"mocha": "^2.0.0"
+	}
+	,"license": "MIT"
+	,"bugs": {
+		"url": "https://github.com/zxdong262/promise-mongo/issues"
+	}
+	,"homepage": "http://html5beta.com/page/nodejs-promise-generator.html"
+	,"engines": {
+		"node": ">= 0.11.13"
+	}
+}

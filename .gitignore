@@ -1,0 +1,5 @@
+# Logs
+*.log
+
+# deps
+/node_modules/
