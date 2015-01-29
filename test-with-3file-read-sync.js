@@ -13,8 +13,9 @@ http.createServer(function (request, response) {
 
   //read file
   Promise.all([readFile('a.txt'), readFile('b.txt'), readFile('c.txt')])
-  .then(function(a, b, c) {
-    response.end(a + b + c)
+  .then(function(arr) {
+    response.end(arr.join(''))
+    //'abc'
   })
   .catch(function(err) {
     console.log(err.stack)
